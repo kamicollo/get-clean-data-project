@@ -2,7 +2,7 @@
 
 ##Raw data
 
-The output files provided are based on a [human activity dataset collected using smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)). See [README](README] for details. The output files essentially combine and subset the data included in the original dataset.
+The output files provided are based on a [human activity dataset collected using smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)). See [README](README,md) for details. The output files essentially combine and subset the data included in the original dataset.
 
 ##Data included
 
@@ -13,6 +13,8 @@ The output files provided are based on a [human activity dataset collected using
 ##Data transformations
 
 1. While the original dataset is provided in a long format, the output files were "normalized", i.e. features are listed in one column and their measurements - in another.
+
+1. All feature and activity naming information was merged into the main dataset and thus now includes actual string descriptions, not the number identifiers as in the original dataset.
 
 2. All activity names were lowercased.
 
