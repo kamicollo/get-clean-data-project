@@ -7,7 +7,7 @@ This repository includes four files:
  - [run_analysis.R](run_analysis.R). This file, when run, downloads the original dataset, transforms it and outputs two files, described below. See below for details.
  - [measurements-by-activity-subject.txt](measurements-by-activity-subject.txt). This file includes a tidy dataset of the value for all subjects, all activities, but limited to measurements on the mean and standard deviation for each signal. Refer to [Codebook](Codebook.md) for details.
  - [average-measurements-by-activity-subject.txt](average-measurements-by-activity-subject.txt). This file includes a tidy dataset of the average value of each measurement for all subjects, all activities of the above file. Refer to [Codebook](Codebook.md) for details.
- - [Codebook](Codebook.md) describing the output files
+ - [Codebook](CodeBook.md) describing the output files
 
 ##Definition of measurements included in the datasets
 
