@@ -62,7 +62,7 @@ subset$Subject <- factor(subset$Subject)
 subset$Measurement <- factor(subset$Measurement)
 
 #save the data
-write.table(tidy, file=data_file, row.names=FALSE)
+write.table(subset, file=data_file, row.names=FALSE)
 
 #create tidy dataset, which contains means of each mesurement for each subject and activity
 tidy <- aggregate(Value ~ Activity+Subject+Measurement, data=subset, FUN=mean)
